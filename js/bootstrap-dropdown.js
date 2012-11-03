@@ -1,5 +1,5 @@
 /* ============================================================
- * bootstrap-dropdown.js v2.1.2
+ * bootstrap-dropdown.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#dropdowns
  * ============================================================
  * Copyright 2012 Twitter, Inc.
@@ -99,15 +99,11 @@
 
   }
 
-<<<<<<< HEAD
+<<<<<<< Temporary merge branch 1
   function clearMenus() {
     $(toggle).each(function () {
       getParent($(this)).removeClass('open')
-=======
-  function clearMenus() { 
-    $(toggle).each(function () { 
-      getParent($(this)).removeClass("open")
->>>>>>> upstream/2.1.2-wip
+>>>>>>> Temporary merge branch 2
     })
   }
 
